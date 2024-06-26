@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    
+background-image:linear-gradient(rgb(0, 0, 0,0.3),rgb(0, 0, 0,0.3)), url(../imges/netflix.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+position:relative;
+}
+.main.box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: rgb(28, 16, 16);
+    position: absolute;
+    top: 0%;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    padding-right: 30px;
+    display: flex;
+    align-items:center;
+    height: 100px;
+}
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+   
+}
+
+
+.img {
+    img {
+        color: red;
+    }
+    position: absolute;
+    top: 30px;
+    left: 80px;
+   
+    /* right: 0;
+    bottom: 0; */
+    /* border: 2px solid red; */
+}
+.heading{
+    color: white;
+    font-size: 300%; 
+    text-align: center;
+    margin-top: 100px;
+}
+.pera{
+    color: rgb(241, 229, 229);
+    font-size: x-large; 
+    font-weight: 200;
+    text-align: center;
+    margin-top: 20px;
+}
+.bt{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 2px;
+   text-align: center;
+}
+
+
+.mail{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+ /* statrt section2 from here */
+.section2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top: 10px solid rgb(26, 33, 39);
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-size:large; 
+}
+
+.bannerWrapper{
+    width: 100%;
+    display: flex;
+}
+
+.textWrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgWrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+/* end section2 here */
+.section3{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-top: 10px solid rgb(26, 33, 39);
+  box-sizing: border-box;
+}
+h2 {
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-size:large; 
+}
+
+.bannerWrapper1{
+    display: flex;
+    
+}
+.textWrapper1{
+    width: 50%;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    justify-content: right;
+
+}
+
+.imgWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust based on your requirement */
+  }
+  
+  .backgroundImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .videoWrapper {
+    position: absolute;
+    top: 50%; /* Center the video vertically */
+    left: 50%; /* Center the video horizontally */
+    transform: translate(-50%, -50%); /* Adjust the centering */
+    width: 71%; /* Adjust based on your requirement */
+  }
+  /* end section3 here */
+ 
+  .section4{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top: 10px solid rgb(26, 33, 39);
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-size:large; 
+}
+
+.bannerWrapper3{
+    width: 100%;
+    display: flex;
+}
+
+.textWrapper3{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgWrapper3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  
+}
+/* section 4 end here */
+.section5{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top: 10px solid rgb(26, 33, 39);
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+}
+p{
+    color: white;
+    font-size:x-large; 
+}
+
+.bannerWrapper5{
+    width: 100%;
+    display: flex;
+}
+
+.textWrapper5{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgWrapper5{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+
